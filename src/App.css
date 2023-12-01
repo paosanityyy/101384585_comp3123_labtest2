@@ -1,3 +1,9 @@
+body {
+  background-image: url('./assets/bg2.jpg');
+  background-size: cover; /* or 'contain' depending on your preference */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This will make the background fixed while scrolling */
+}
 .App {
   text-align: center;
 }

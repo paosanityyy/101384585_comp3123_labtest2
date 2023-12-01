@@ -1,0 +1,62 @@
+.weather-container {
+    margin: 20px;
+    padding: 20px;
+}
+
+.current-weather {
+    display: flex;
+    border: 1px solid rgba(240, 240, 240, 0.2);
+    border-radius: 30px;
+}
+
+.loc {
+    font-size: 32px;
+}
+
+
+
+.left-column {
+    flex: 1;
+    border-right: 1px solid rgba(240, 240, 240, 0.2);
+    border-radius: 30px;
+    background-color: rgba(240, 240, 240, 0.2);
+}
+
+.right-column {
+    flex: 1;
+}
+
+.daily-forecast {
+    border: 1px solid rgba(240, 240, 240, 0.2);
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(15, 97, 220, 0.5)
+}
+
+.wklyForecast {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(15, 97, 220, 0.3);
+    border-radius: 30px;
+}
+
+.forecastContent {
+    flex: 1;
+}
+
+.left-column h3,
+.left-column p,
+.left-column img {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.left-column h4 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: aliceblue;
+}
